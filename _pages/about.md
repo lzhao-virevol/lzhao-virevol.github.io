@@ -4,4 +4,4 @@ permalink: /about/
 layout: single
 ---
 
-Your about page content goes here.
+About page content goes here.
