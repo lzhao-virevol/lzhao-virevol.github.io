@@ -97,23 +97,15 @@ body::before {
 }
 
 .page__hero--overlay {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  padding-top: 4rem;
+  padding-top: 1.5rem;
+  padding-bottom: 5rem;
 }
 
 .page__hero--overlay .wrapper {
   margin-top: 0;
-  align-self: flex-start;
 }
 
-.page__lead, 
 .page__hero--overlay .page__excerpt {
-  font-size: 1.5em !important;
-  font-weight: 500;
-}
-
-.page__hero--overlay .page__title {
-  font-size: 2.5em !important;
+  margin-top: 0;
+  padding-top: 0;
 }
