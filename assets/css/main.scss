@@ -1,0 +1,17 @@
+---
+---
+
+@import "minimal-mistakes";
+
+/* Your custom font settings */
+$sans-serif: 'Roboto', sans-serif;
+$serif: 'Merriweather', serif;
+$monospace: 'Source Code Pro', monospace;
+
+body {
+  font-family: $sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $serif;
+}
