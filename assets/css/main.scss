@@ -2,15 +2,31 @@
 ---
 ---
 
+---
+---
+
 @import "minimal-mistakes";
 
+/* OpenDyslexic font */
 $sans-serif: 'OpenDyslexic', sans-serif;
 $serif: 'OpenDyslexic', serif;
+$global-font-family: $sans-serif;
+$header-font-family: $serif;
 
 body {
   font-family: $sans-serif;
-  line-height: 1.8; /* Increased line spacing helps dyslexic readers */
-  letter-spacing: 0.5px; /* Slightly increased letter spacing */
+  line-height: 1.8;
+  letter-spacing: 0.5px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $serif;
+}
+
+.page__content {
+  p, li {
+    font-family: $sans-serif;
+  }
 }
 
 .news {
