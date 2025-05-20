@@ -1,15 +1,18 @@
+---
+---
+
 @import "minimal-mistakes";
 
 /* Lexend font */
 @font-face {
   font-family: 'Lexend';
-  src: url('/assets/fonts/lexend/Lexend-Light.ttf') format('truetype');
+  src: url('/assets/fonts/lexend/Lexend-Regular.ttf') format('truetype');
   font-weight: normal;
 }
 
 @font-face {
   font-family: 'Lexend';
-  src: url('/assets/fonts/lexend/Lexend-Regular.ttf') format('truetype');
+  src: url('/assets/fonts/lexend/Lexend-Bold.ttf') format('truetype');
   font-weight: bold;
 }
 
@@ -62,7 +65,7 @@ body {
  }
 }
 
-/* Fix for unwanted text in corner */
+/* Fix for unwanted text */
 body::before {
- display: none !important;
+  display: none !important;
 }
