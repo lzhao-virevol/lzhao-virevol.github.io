@@ -1,29 +1,27 @@
----
----
-
 @import "minimal-mistakes";
 
-/* Comic Sans font settings */
-$sans-serif: 'Comic Sans MS', 'Comic Sans', cursive;
-$serif: 'Comic Sans MS', 'Comic Sans', cursive;
+/* Lexend font */
+@font-face {
+  font-family: 'Lexend';
+  src: url('/assets/fonts/lexend/Lexend-Light.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Lexend';
+  src: url('/assets/fonts/lexend/Lexend-Regular.ttf') format('truetype');
+  font-weight: bold;
+}
+
+$sans-serif: 'Lexend', sans-serif;
+$serif: 'Lexend', serif;
 $global-font-family: $sans-serif;
 $header-font-family: $sans-serif;
 
 body {
- font-family: $sans-serif;
- line-height: 1.8;
- letter-spacing: 0.5px;
-}
-
-h1, h2, h3, h4, h5, h6 {
- font-family: $sans-serif;
- font-weight: 700;
-}
-
-.page__content {
- p, li {
-   font-family: $sans-serif;
- }
+  font-family: $sans-serif;
+  line-height: 1.8;
+  letter-spacing: 0.5px;
 }
 
 /* News section formatting */
