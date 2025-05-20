@@ -1,11 +1,41 @@
 ---
-layout: default
-title: Home Page
+layout: splash
+permalink: /
+header:
+  overlay_color: "#5e616c"
+  overlay_image: /assets/images/header-background.jpg
+  actions:
+    - label: "View CV"
+      url: "/assets/docs/your-cv.pdf"
+excerpt: "Researcher in [Your Field] specializing in [Your Research Focus]"
+feature_row:
+  - image_path: /assets/images/research-thumb.jpg
+    alt: "Research"
+    title: "Research Focus"
+    excerpt: "Brief description of your research interests and specialties."
+    url: "/research/"
+    btn_label: "Learn More"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/publications-thumb.jpg
+    alt: "Publications"
+    title: "Recent Publications"
+    excerpt: "Overview of your most significant or recent academic publications."
+    url: "/publications/"
+    btn_label: "See Publications"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/teaching-thumb.jpg
+    alt: "Teaching"
+    title: "Teaching"
+    excerpt: "Information about courses taught, teaching philosophy, or educational materials."
+    url: "/teaching/"
+    btn_label: "View Courses"
+    btn_class: "btn--primary"
 ---
-<!DOCTYPE html>
-<html>
-<body>
-  <h1>Welcome to My Website</h1>
-  <p>This is my personal site hosted on GitHub Pages.</p>
-</body>
-</html>
+
+{% include feature_row %}
+
+## Current Projects
+
+My current research focuses on [brief description of current work].
+
+[Optional: Add a recent news section, upcoming conference appearances, etc.]
