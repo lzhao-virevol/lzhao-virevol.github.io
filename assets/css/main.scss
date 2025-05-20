@@ -1,43 +1,70 @@
-/* In assets/css/main.scss */
 ---
 ---
 
 @import "minimal-mistakes";
 
-/* OpenDyslexic font */
-$sans-serif: 'OpenDyslexic', sans-serif;
-$serif: 'OpenDyslexic', serif;
+/* Dyslexie font settings */
+$sans-serif: 'Dyslexie', sans-serif;
+$serif: 'Dyslexie', serif;
 $global-font-family: $sans-serif;
-$header-font-family: $serif;
+$header-font-family: $sans-serif;
 
 body {
-  font-family: $sans-serif;
-  line-height: 1.8;
-  letter-spacing: 0.5px;
+ font-family: $sans-serif;
+ line-height: 1.8;
+ letter-spacing: 0.5px;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $serif;
+ font-family: $sans-serif;
+ font-weight: 700;
 }
 
 .page__content {
-  p, li {
-    font-family: $sans-serif;
-  }
+ p, li {
+   font-family: $sans-serif;
+ }
 }
 
+/* News section formatting */
 .news {
-  margin-bottom: 2em;
-  padding: 1em;
-  background-color: #f8f9fa;
-  border-radius: 5px;
-  
-  ul {
-    padding-left: 1.5em;
-  }
-  
-  li {
-    margin-bottom: 0.5em;
-  }
+ margin-bottom: 2em;
+ padding: 1em;
+ background-color: #f8f9fa;
+ border-radius: 5px;
+ border-left: 4px solid #40bfbe;
+ 
+ h2 {
+   color: #333;
+   margin-top: 0;
+ }
+ 
+ ul {
+   padding-left: 1.5em;
+   margin: 0;
+ }
+ 
+ li {
+   margin-bottom: 0.5em;
+   list-style-type: none;
+   position: relative;
+   
+   &:before {
+     content: "•";
+     color: #40bfbe;
+     font-weight: bold;
+     display: inline-block;
+     width: 1em;
+     margin-left: -1em;
+   }
+ }
+ 
+ strong {
+   color: #333;
+ }
 }
 
+/* Fix for unwanted text in corner */
+body::before {
+ display: none !important;
+}
