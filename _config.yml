@@ -8,7 +8,7 @@ plugins:
 title: ""  # This appears in the header/browser tab
 name: ""   # This replaces your username in various places
 author:
-  name: "" # For author bylines
+  name: "LZ" # For author bylines
 
 defaults:
   # _pages
