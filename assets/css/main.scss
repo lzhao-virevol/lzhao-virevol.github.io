@@ -12,3 +12,18 @@ body {
   line-height: 1.8; /* Increased line spacing helps dyslexic readers */
   letter-spacing: 0.5px; /* Slightly increased letter spacing */
 }
+
+.news {
+  margin-bottom: 2em;
+  padding: 1em;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  
+  ul {
+    padding-left: 1.5em;
+  }
+  
+  li {
+    margin-bottom: 0.5em;
+  }
+}
