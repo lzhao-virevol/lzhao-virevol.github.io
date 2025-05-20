@@ -9,3 +9,12 @@ title: "Lele Zhao"  # This appears in the header/browser tab
 name: "Lele Zhao"   # This replaces your username in various places
 author:
   name: "Lele Zhao" # For author bylines
+
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
