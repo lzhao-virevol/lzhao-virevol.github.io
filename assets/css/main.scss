@@ -1,17 +1,14 @@
+/* In assets/css/main.scss */
 ---
 ---
 
 @import "minimal-mistakes";
 
-/* Your custom font settings */
-$sans-serif: 'Roboto', sans-serif;
-$serif: 'Merriweather', serif;
-$monospace: 'Source Code Pro', monospace;
+$sans-serif: 'OpenDyslexic', sans-serif;
+$serif: 'OpenDyslexic', serif;
 
 body {
   font-family: $sans-serif;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: $serif;
+  line-height: 1.8; /* Increased line spacing helps dyslexic readers */
+  letter-spacing: 0.5px; /* Slightly increased letter spacing */
 }
