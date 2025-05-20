@@ -5,7 +5,7 @@ plugins:
 
 
 # Site settings
-title: "Lele Zhao"  # This appears in the header/browser tab
+title: ""  # This appears in the header/browser tab
 name: "Lele Zhao"   # This replaces your username in various places
 author:
   name: "Lele Zhao" # For author bylines
