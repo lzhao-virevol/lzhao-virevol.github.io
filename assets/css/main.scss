@@ -95,3 +95,27 @@ body {
 body::before {
   display: none !important;
 }
+
+/* Enhance header and excerpt styling */
+.page__hero--overlay {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-top: -2rem; /* Move up */
+}
+
+.page__hero--overlay .page__title,
+.page__hero--overlay .page__lead {
+  max-width: 800px;
+}
+
+.page__lead, 
+.page__hero--overlay .page__excerpt {
+  font-size: 1.5em !important;
+  font-weight: 500;
+  margin-bottom: 1.5em;
+}
+
+.page__hero--overlay .page__title {
+  font-size: 2.5em !important;
+  margin-bottom: 0.5em;
+}
