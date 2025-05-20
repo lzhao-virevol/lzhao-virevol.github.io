@@ -1,12 +1,15 @@
 # lzhao-virevol.github.io
 
 My Personal Website
+
 This repository contains the code for my personal website, hosted with GitHub Pages. 
 
 Visit the Site
+
 lzhao-virevol.github.io
 
 About
+
 This personal website showcases my portfolio, skills, and projects. It was built using Jekyll and the Minimal Mistakes theme.
 
 Features
