@@ -3,29 +3,55 @@
 
 @import "minimal-mistakes";
 
-/* Lexend font */
+/* Lexend font definitions */
 @font-face {
-  font-family: 'Lexend';
-  src: url('/assets/fonts/lexend/Lexend-ExtraLight.ttf') format('truetype');
-  font-weight: normal;
+ font-family: 'Lexend';
+ src: url('/assets/fonts/lexend/Lexend-Light.ttf') format('truetype');
+ font-weight: normal;
+ font-style: normal;
 }
 
 @font-face {
-  font-family: 'Lexend';
-  src: url('/assets/fonts/lexend/Lexend-Light.ttf') format('truetype');
-  font-weight: bold;
+ font-family: 'Lexend';
+ src: url('/assets/fonts/lexend/Lexend-Regular.ttf') format('truetype');
+ font-weight: bold;
+ font-style: normal;
 }
 
+/* Base font variables */
 $sans-serif: 'Lexend', sans-serif;
 $serif: 'Lexend', serif;
 $global-font-family: $sans-serif;
 $header-font-family: $sans-serif;
 
-body {
-  font-family: $sans-serif;
-  line-height: 1.8;
-  letter-spacing: 0.5px;
+/* Apply Lexend to all elements */
+html, body, button, input, select, textarea, 
+.sidebar, .masthead, .page__meta, .archive__item, 
+.pagination, .breadcrumbs, .page__footer, 
+p, h1, h2, h3, h4, h5, h6, a, li, td, th, label,
+.page__title, .archive__item-title, .toc, .footnotes {
+ font-family: 'Lexend', sans-serif !important;
 }
+
+/* Ensure buttons and other components use it too */
+.btn, .nav__items, .page__share, .social-icons {
+ font-family: 'Lexend', sans-serif !important;
+}
+
+/* Feature row title styling */
+.feature__item h2.archive__item-title {
+ font-family: 'Lexend', sans-serif !important;
+ font-weight: 600;
+ color: #333;
+ font-size: 1.5em;
+}
+
+/* Typography improvements */
+body {
+ line-height: 1.8;
+ letter-spacing: 0.5px;
+}
+
 
 /* News section formatting */
 .news {
