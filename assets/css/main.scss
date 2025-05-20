@@ -96,26 +96,24 @@ body::before {
   display: none !important;
 }
 
-/* Enhance header and excerpt styling */
 .page__hero--overlay {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  margin-top: -2rem; /* Move up */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 4rem;
 }
 
-.page__hero--overlay .page__title,
-.page__hero--overlay .page__lead {
-  max-width: 800px;
+.page__hero--overlay .wrapper {
+  margin-top: 0;
+  align-self: flex-start;
 }
 
 .page__lead, 
 .page__hero--overlay .page__excerpt {
   font-size: 1.5em !important;
   font-weight: 500;
-  margin-bottom: 1.5em;
 }
 
 .page__hero--overlay .page__title {
   font-size: 2.5em !important;
-  margin-bottom: 0.5em;
 }
